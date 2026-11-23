@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>주변 맛집 소개 - 한양 맛지도</title>
+  <style>
+    /* 메뉴 2개를 왼쪽(퍼보), 오른쪽(껌싸오)으로 나란히 배치 */
+    .menu-container {
+      display: flex;
+      gap: 20px; /* 왼쪽 카드와 오른쪽 카드 사이 간격 */
+      margin-top: 16px;
+    }
+
+    /* 각 메뉴 카드 디자인 */
+    .menu-card {
+      flex: 1; /* 왼쪽·오른쪽 너비를 똑같이 반반씩 차지 */
+      border: 1px solid #dddddd;
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    /* 메뉴 사진 여백 설정 (위 0, 오른쪽 8px, 아래 8px, 왼쪽 0) */
+    .menu-card img {
+      width: 100%;
+      max-width: 280px;
+      height: auto;
+      margin: 0 8px 8px 0;
+      border-radius: 6px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>한양 맛지도</h1>
+    <nav aria-label="주 메뉴">
+      <ul>
+        <li><a href="../index.html">홈</a></li>
+        <li><a href="univ.html">학식</a></li>
+        <li><a href="food.html">맛집</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>한양대 주변 추천 맛집</h2>
+      <p>4조 팀원들이 직접 다녀오고 추천하는 학교 근처 찐맛집 리스트입니다.</p>
+    </section>
+
+    <section>
+      <h3>추천 맛집 목록</h3>
+
+      <!-- 추천 맛집: 남월 쌀국수 -->
+      <article>
+        <h4>남월 쌀국수 안산한양대 본점 (추천자: 김예원)</h4>
+        <p><strong>위치:</strong> 경기 안산시 상록구 사동 1568-12 · 진한 국물과 푸짐한 양의 베트남 음식 맛집</p>
+
+        <!-- 왼쪽: 퍼보 / 오른쪽: 껌싸오 -->
+        <div class="menu-container">
+          <!-- 왼쪽 메뉴 카드 -->
+          <section class="menu-card">
+            <h5>1. 한우한돈사골국물 소고기 쌀국수 (퍼보)</h5>
+            <img src="../images/phobo.jpg" alt="남월 쌀국수 퍼보 사진" />
+            <p><strong>가격:</strong> 10,500원</p>
+            <p><strong>메뉴 설명:</strong> 10시간 이상 진하게 우려낸 한우·한돈 사골 육수의 깊은 감칠맛이 일품인 대표 메뉴입니다. 면과 고기 양이 넉넉해 한 그릇만 먹어도 공강 시간이나 점심에 배부르고 든든하게 채울 수 있습니다.</p>
+          </section>
+
+          <!-- 오른쪽 메뉴 카드 -->
+          <section class="menu-card">
+            <h5>2. 껌사오 닭고기 매운맛</h5>
+            <img src="../images/comxao.jpg" alt="남월 쌀국수 껌싸오 사진" />
+            <p><strong>가격:</strong> 11,500원</p>
+            <p><strong>메뉴 설명:</strong> 신선한 숙주와 아삭한 야채, 부드러운 닭고기에 진한 불맛을 입혀 볶아낸 베트남식 볶음덮밥입니다. 밥과 토핑이 접시 가득 수북하게 담겨 나올 정도로 양이 매우 푸짐해, 매콤하고 든든한 한 끼 식사로 강력 추천합니다. 특히 쌀국수와 함께 시켜 먹기 딱 좋습니다.</p>
+          </section>
+        </div>
+      </article>
+
+      <!-- 팀원 2, 팀원 3이 아래에 <article>을 하나씩 추가할 예정 -->
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2026 oss-04-food · 한양대 주변 맛집 및 학식 소개 프로젝트</small>
+  </footer>
+</body>
+</html>
