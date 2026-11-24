@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>남월 쌀국수 - 한양 맛지도</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <style>
+    /* 메뉴 2개를 왼쪽(퍼보), 오른쪽(껌싸오)으로 나란히 배치 */
+    .menu-container {
+      display: flex;
+      gap: 20px; /* 왼쪽 카드와 오른쪽 카드 사이 간격 */
+      margin-top: 16px;
+    }
+
+    /* 각 메뉴 카드 디자인 */
+    .menu-card {
+      flex: 1; /* 왼쪽·오른쪽 너비를 똑같이 반반씩 차지 */
+      border: 1px solid #dddddd;
+      border-radius: 8px;
+      padding: 16px;
+      background-color: #FFFFFF;
+    }
+
+    /* 메뉴 사진 여백 설정 (위 0, 오른쪽 8px, 아래 8px, 왼쪽 0) */
+    .menu-card img {
+      width: 100%;
+      max-width: 280px;
+      height: auto;
+      margin: 0 8px 8px 0;
+      border-radius: 6px;
+      display: block;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 24px;
+      color: #E85D3F;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>한양 맛지도</h1>
+    <nav aria-label="주 메뉴">
+      <ul>
+        <li><a href="../index.html">홈</a></li>
+        <li><a href="food.html">주변 맛집</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>남월 쌀국수 안산한양대 본점</h2>
+      <p><strong>추천자:</strong> 김예원 · <strong>위치:</strong> 경기 안산시 상록구 사동 1568-12</p>
+      <p>진한 사골 육수와 푸짐한 양으로 공강 시간이나 점심에 든든하게 먹기 좋은 한양대 앞 베트남 음식 맛집입니다.</p>
+
+      <!-- 왼쪽: 퍼보 / 오른쪽: 껌싸오 -->
+      <div class="menu-container">
+        <!-- 왼쪽 메뉴 카드 -->
+        <section class="menu-card">
+          <h3>1. 한우한돈사골국물 소고기 쌀국수 (퍼보)</h3>
+          <img src="../images/phobo.jpg" alt="남월 쌀국수 퍼보 사진" />
+          <p><strong>가격:</strong> 10,500원</p>
+          <p><strong>메뉴 설명:</strong> 10시간 이상 진하게 우려낸 한우·한돈 사골 육수의 깊은 감칠맛이 일품인 대표 메뉴입니다. 면과 고기 양이 넉넉해 한 그릇만 먹어도 배부르고 든든하게 채울 수 있습니다.</p>
+        </section>
+
+        <!-- 오른쪽 메뉴 카드 -->
+        <section class="menu-card">
+          <h3>2. 껌사오 닭고기 매운맛</h3>
+          <img src="../images/comxao.jpg" alt="남월 쌀국수 껌싸오 사진" />
+          <p><strong>가격:</strong> 11,500원</p>
+          <p><strong>메뉴 설명:</strong> 신선한 숙주와 아삭한 야채, 부드러운 닭고기에 진한 불맛을 입혀 볶아낸 베트남식 볶음덮밥입니다. 밥과 토핑이 접시 가득 수북하게 담겨 나올 정도로 양이 매우 푸짐해, 매콤하고 든든한 한 끼 식사로 강력 추천합니다. 특히 쌀국수와 함께 시켜 먹기 딱 좋습니다.</p>
+        </section>
+      </div>
+
+      <a href="food.html" class="back-link">← 주변 맛집 목록으로 돌아가기</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 oss-04-food. 한양대 주변 맛집 안내 프로젝트</p>
+  </footer>
+</body>
+</html>
