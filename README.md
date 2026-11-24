@@ -1,5 +1,5 @@
 # 🍽️ 한양대 맛지도 (oss-04-food)
-> 한양대학교 ERICA 주변 맛집 및 교내 학식 소개 가이드
+> 한양대학교 ERICA 주변 맛집 소개 가이드
 
 🔗 **사이트:** https://kyw070314.github.io/oss-04-food/
 
@@ -9,8 +9,8 @@
 | 이름 | 역할 | 담당 페이지 |
 | :--- | :--- | :--- |
 | 김예원 | 팀장 | 메인(`index.html`), 주변 맛집(`pages/food.html`) |
-| 이태희 | 팀원 | 주변 맛집(`pages/food.html`),학식(`pages/univ.html`) |
-| 최민석 | 팀원 | 주변 맛집(`pages/food.html`),학식(`pages/univ.html`) |
+| 이태희 | 팀원 | 주변 맛집(`pages/food.html`) |
+| 최민석 | 팀원 | 주변 맛집(`pages/food.html`) |
 
 ---
 
@@ -18,7 +18,6 @@
 - **페이지 구성**
   - `index.html` : 프로젝트 소개 및 주요 메뉴 내비게이션 홈 화면
   - `pages/food.html` : 한양대 주변 추천 맛집 소개 
-  - `pages/univ.html` : 교내 학생식당 및 메뉴 안내
   - `css/style.css` : 전체 페이지 공통 스타일시트
 - **사용 기술**
   - HTML5 (시맨틱 태그 구조 적용)
@@ -35,7 +34,7 @@
 - **이미지 출처**
   - 직접 촬영
 - **글꼴**
-  - 
+  - Noto Sans KR (OFL)
 - **AI 활용 내역**
   - **Gemini (Google):** 
 
