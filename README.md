@@ -1,13 +1,45 @@
-# oss-04-food
+# 🍽️ 한양대 맛지도 (oss-04-food)
+> 한양대학교 ERICA 주변 맛집 및 교내 학식 소개 가이드
 
-## 📌 4조
+🔗 **사이트:** https://kyw070314.github.io/oss-04-food/
 
-## 💡 프로젝트 주제
-- 한양대학교 주변 맛집 및 학식 소개 웹페이지
+---
 
-## 👥 팀원 및 역할 분담
-| 이름 | GitHub 아이디 | 담당 역할 및 페이지 |
+## 👥 팀원과 역할
+| 이름 | 역할 | 담당 페이지 |
 | :--- | :--- | :--- |
-| 김예원 (팀장) | `@kyw070314` | 공통 뼈대(`index.html`) 구축, 학식 페이지(`pages/univ.html`), 맛집 페이지(`pages/food.html`), 총괄 |
-| 이태희 (팀원) | `@itaehui74-lang` | 학식 페이지(`pages/univ.html`), 맛집 페이지(`pages/food.html`) |
-| 최민석 (팀원) | `@cminseog58-lab` | 학식 페이지(`pages/univ.html`), 맛집 페이지(`pages/food.html`) |
+| 김예원 | 팀장 | 메인(`index.html`), 주변 맛집(`pages/food.html`) |
+| 이태희 | 팀원 | 주변 맛집(`pages/food.html`),학식(`pages/univ.html`) |
+| 최민석 | 팀원 | 주변 맛집(`pages/food.html`),학식(`pages/univ.html`) |
+
+---
+
+## 📂 페이지 구성 및 사용 기술
+- **페이지 구성**
+  - `index.html` : 프로젝트 소개 및 주요 메뉴 내비게이션 홈 화면
+  - `pages/food.html` : 한양대 주변 추천 맛집 소개 
+  - `pages/univ.html` : 교내 학생식당 및 메뉴 안내
+  - `css/style.css` : 전체 페이지 공통 스타일시트
+- **사용 기술**
+  - HTML5 (시맨틱 태그 구조 적용)
+  - CSS3 (Flexbox, @media`)
+
+---
+
+## 🤝 협업 방식
+- 이슈(Issue) → 브랜치 → 풀 리퀘스트(PR) → 리뷰 및 승인(Approve) → 병합
+
+---
+
+## 📚 출처 및 AI 활용 내역
+- **이미지 출처**
+  - 직접 촬영
+- **글꼴**
+  - 
+- **AI 활용 내역**
+  - **Gemini (Google):** 
+
+---
+
+## 📄 라이선스
+MIT License
