@@ -42,6 +42,39 @@
     .back-link:hover {
       text-decoration: underline;
     }
+
+    .menu-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      background-color: #ffffff;
+    }
+
+    .menu-table caption {
+      caption-side: top;
+      text-align: left;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #2d2a26;
+    }
+
+    .menu-table th,
+    .menu-table td {
+      border: 1px solid #d8cfc6;
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .menu-table thead th {
+      background-color: #fff3ee;
+      color: #2d2a26;
+      font-weight: 700;
+    }
+
+    .menu-table tbody tr:nth-child(even) {
+      background-color: #fcfaf8;
+    }
   </style>
 </head>
 <body>
@@ -66,49 +99,47 @@
           <h3>1. 보배짬뽕</h3>
           <img src="../images/IMG_2133.jpeg" alt="보배짬뽕 사진" />
           <p><strong>가격:</strong> 10,000원</p>
-          <p><strong>메뉴 설명:</strong>진하고 얼큰한 국물에 신선한 해산물과 아삭한 채소를 듬뿍 넣어 불향이 가득 살아있는 대표 메뉴입니다. 볶아낸 재료의 감칠맛과 탱글탱글한 면발이 잘 어울려 양도 푸짐하고, 매콤하고 개운한 식사를 원할 때 딱 좋습니다.</p>
-
+          <p><strong>메뉴 설명:</strong> 진하고 얼큰한 국물에 신선한 해산물과 아삭한 채소를 듬뿍 넣어 불향이 가득 살아있는 대표 메뉴입니다. 볶아낸 재료의 감칠맛과 탱글탱글한 면발이 잘 어울려 양도 푸짐하고, 매콤하고 개운한 식사를 원할 때 딱 좋습니다.</p>
         </section>
-
-        <section>
-  <h2>메뉴가격표</h2>
-  <table>
-    <caption>보배반점 안산한양대점 메뉴가격표</caption>
-    <thead>
-      <tr>
-        <th scope="col">메뉴명</th>
-        <th scope="col">가격</th>
-        <th scope="col">특징</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>보배짬뽕</td>
-        <td>10,000원</td>
-        <td>진하고 얼큰한 국물에 신선한 해산물과 채소를 듬뿍 넣어 불향이 살아있는 대표 메뉴</td>
-      </tr>
-      <tr>
-        <td>크림짬뽕</td>
-        <td>14,000원</td>
-        <td>고소하고 부드러운 크림과 얼큰한 짬뽕 맛이 어우러진 메뉴</td>
-      </tr>
-      <tr>
-        <td>탕수육(미니)</td>
-        <td>14,000원</td>
-        <td>부담 없이 곁들이기 좋은 미니 사이즈 탕수육</td>
-      </tr>
-      <tr>
-        <td>보배 짜장면</td>
-        <td>8,000원</td>
-        <td>진한 양념과 면발이 잘 어울리는 보배반점 짜장면</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
-
       </div>
 
       <a href="food.html" class="back-link">← 주변 맛집 목록으로 돌아가기</a>
+    </section>
+
+    <section>
+      <h2>메뉴가격표</h2>
+      <table class="menu-table">
+        <caption>보배반점 안산한양대점 메뉴가격표</caption>
+        <thead>
+          <tr>
+            <th scope="col">메뉴명</th>
+            <th scope="col">가격</th>
+            <th scope="col">특징</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>보배짬뽕</td>
+            <td>10,000원</td>
+            <td>진하고 얼큰한 국물에 신선한 해산물과 채소를 듬뿍 넣어 불향이 살아있는 대표 메뉴</td>
+          </tr>
+          <tr>
+            <td>크림짬뽕</td>
+            <td>14,000원</td>
+            <td>고소하고 부드러운 크림과 얼큰한 짬뽕 맛이 어우러진 메뉴</td>
+          </tr>
+          <tr>
+            <td>탕수육(미니)</td>
+            <td>14,000원</td>
+            <td>부담 없이 곁들이기 좋은 미니 사이즈 탕수육</td>
+          </tr>
+          <tr>
+            <td>보배 짜장면</td>
+            <td>8,000원</td>
+            <td>진한 양념과 면발이 잘 어울리는 보배반점 짜장면</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </main>
 
