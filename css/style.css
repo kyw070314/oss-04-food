@@ -1,0 +1,83 @@
+/* 전체 여백 초기화 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 1. 전체 폰트 및 기본 배경색·글자색 */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  background-color: #FFFBF7; /* 메인 배경: 크림 아이보리 */
+  color: #2D2A26;            /* 기본 글자: 진한 차콜 블랙 */
+}
+
+/* 2. 상단 제목 영역 색상 */
+header {
+  background-color: #E85D3F; /* 포인트 색: 코랄 오렌지 */
+  color: #FFFFFF;            /* 제목 글자: 흰색 */
+  text-align: center;
+  padding: 32px 16px 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* 3. 상단 메뉴바 색상 */
+nav {
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #F3E5DC;
+  padding: 12px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: #4A3F35;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  background-color: #FFEAE3;
+  color: #E85D3F;
+}
+
+/* 4. 본문 카드 구역 색상 */
+main {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+section {
+  background-color: #FFFFFF;
+  border: 1px solid #F0E4D8;
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+h2 {
+  color: #D94E30;
+  margin-bottom: 12px;
+}
+
+/* 5. 바닥글 색상 */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #555555;
+  font-size: 0.9rem;
+}
